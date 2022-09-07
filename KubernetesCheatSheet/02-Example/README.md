@@ -12,7 +12,7 @@ curl http://localhost:8081/test
 Ctrl + Shift + P | Add Docker Files to Workspace
 Go | 8081 | No
 Right click Dockerfile | Build image... | 02example:latest
-Right click 01example:latest | Run interactive
+Right click 02example:latest | Run interactive
 curl http://localhost:8081/test
 ```
 ```
