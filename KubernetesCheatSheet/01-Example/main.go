@@ -9,11 +9,9 @@ import (
 
 func main() {
 	bind := ":8081"
-	log.Println("Starting web server on port", bind)
+	log.Println("Start web server on port", bind)
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		msg := fmt.Sprintf("Hi, %q", html.EscapeString(r.URL.Path))
-		log.Println(msg)
-		_, err := fmt.Fprint(w, msg)
+		_, err := fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.Path))
 		if err != nil {
 			log.Fatal(err)
 			return
