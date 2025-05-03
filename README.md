@@ -20,3 +20,13 @@ https://steveproxna.blogspot.com/2022/09/golang-cheat-sheet.html
 Tue, 15th November, 2022
 <br />
 http://steveproxna.blogspot.com/2022/11/golang-cheat-sheet-ii.html
+
+### Cloud Setup Cheat Sheet
+Mon, 5th May, 2025
+<br />
+https://steveproxna.blogspot.com/2025/05/cloud-setup-cheat-sheet.html
+
+### Cloud Setup Cheat Sheet II
+Mon, 2nd June, 2025
+<br />
+https://steveproxna.blogspot.com/2025/06/cloud-setup-cheat-sheet-ii.html
